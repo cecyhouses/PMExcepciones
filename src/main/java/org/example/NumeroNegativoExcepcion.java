@@ -4,11 +4,9 @@ import java.util.Scanner;
 
 class NumeroNegativoExcepcion extends Exception {
     public NumeroNegativoExcepcion() {
-        // Constructor sin parámetros, no es necesario usar super() ya que se llama automáticamente
     }
 
     public NumeroNegativoExcepcion(String mensaje) {
-        // Constructor con mensaje, tampoco es necesario usar super() aquí
     }
 }
 
